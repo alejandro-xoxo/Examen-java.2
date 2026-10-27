@@ -4,7 +4,9 @@
     <module name="little-horizons-erp" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8" />
-    <envs />
+    <envs>
+      <env name="LH_DB_PASSWORD" value="Campus2026" />
+    </envs>
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

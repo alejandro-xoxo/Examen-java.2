@@ -28,8 +28,8 @@ class SqlSmokeIT {
         Properties props = (Properties) f.get(AppConfig.getInstance());
         props.setProperty("db.url", "jdbc:mysql://localhost:3306/" + System.getProperty("lh.it.db")
                 + "?useUnicode=true&characterEncoding=UTF-8&serverTimezone=America/Bogota");
-        props.setProperty("db.user", "root");
-        props.setProperty("db.password", "");
+        props.setProperty("db.user", "camper");
+        props.setProperty("db.password", "Campus2026");
 
         ReportDao r = new ReportDaoImpl();
         for (ReportTable t : new ReportTable[]{r.studentsByGrade(2026), r.topAverages(2026, 10), r.clubParticipation(),

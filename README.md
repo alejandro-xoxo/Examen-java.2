@@ -127,3 +127,4 @@ Para abrir, compilar y ejecutar el proyecto en IntelliJ IDEA (Community o Ultima
    - *Communications link failure*: El servidor MySQL se encuentra apagado o no es accesible en el puerto configurado.
    - *Caracteres raros o marcos rotos*: Verificar que las VM options de codificación UTF-8 estén presentes en la configuración de ejecución.
 10. **Consola interactiva vs IDE:** La clase `Main` únicamente cambia la página de códigos de Windows (`chcp 65001`) si detecta una consola de terminal interactiva real (`System.console() != null`). Al correr dentro del IDE IntelliJ IDEA, `System.console()` retorna `null`, por lo que dicha invocación se omite automáticamente y no interfiere con el entorno de ejecución del IDE.
+# Examen-java.2
